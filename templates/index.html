@@ -12,12 +12,12 @@
             <a href='/post/{{post.slug}}'>{{ post.title }}</a>
         </p>
     </div>
-    <div class='card-body' style='background-color:#00fffb'>
+    <div class='card-body' style='background-color:#46bebc'>
         <p>
         {{ post.body | truncatechars:40 }}
         </p>
     </div>
-    <div class='card-footer'  style='background-color:#00ff37'>
+    <div class='card-footer'  style='background-color:#26983f'>
         <p>
             發佈時間：{{ post.pub_date | date:"Y M d, h:m:s A"}}
         </p>
